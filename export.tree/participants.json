@@ -1,0 +1,23 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "age of the participant",
+        "Units": "years"
+    },
+    "group": {
+        "Description": "study group",
+        "Levels": {
+            "control": "healthy control",
+            "experimental": "tinnitus"
+        }
+    },
+    "sex": {
+        "Description": "biological sex of the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    }
+}

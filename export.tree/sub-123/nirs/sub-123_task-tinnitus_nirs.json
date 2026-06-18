@@ -1,0 +1,24 @@
+{
+    "TaskName": "tinnitus",
+    "Manufacturer": "NIRx",
+    "PowerLineFrequency": 60.0,
+    "SamplingFrequency": 5.0864699898270604,
+    "SoftwareFilters": "n/a",
+    "RecordingDuration": 1004.0361999999999,
+    "RecordingType": "continuous",
+    "EEGChannelCount": 0,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 0,
+    "TriggerChannelCount": 0,
+    "NIRSChannelCount": 166,
+    "NIRSSourceOptodeCount": 24,
+    "NIRSDetectorOptodeCount": 31,
+    "ManufacturersModelName": "NIRSport2",
+    "CapManufacturer": "NIRx",
+    "SourceWavelengths": [
+        760.0,
+        850.0
+    ]
+}
