@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on007990",
-  "source": "openneuro",
-  "source_id": "ds007990",
+  "pipeline_stage": "validated",
   "title": "Subjective tinnitus severity correlates with objective changes in human auditory cortex as measured by functional near-infrared spectroscopy",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Gopika Satish": {},
     "Leah M. Taylor": {},
@@ -12,21 +12,66 @@
     "Karthikeyan Krishnamurthy": {},
     "Gregory J. Basura": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007990.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007990",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007990",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "nirs"
   ],
-  "datatypes": [
-    "nirs"
-  ]
+  "resource_type_specific": "fNIRS Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".snirf",
+    ".tsv"
+  ],
+  "description": "This dataset comprises functional near-infrared spectroscopy (fNIRS) recordings from human auditory cortex in individuals with subjective tinnitus and matched controls. Neuroimaging data were acquired using a NIRx NIRSport2 system to investigate the relationship between subjective tinnitus severity and objective hemodynamic changes in auditory cortical regions. The study aims to elucidate the neural correlates of tinnitus perception through non-invasive optical neuroimaging.",
+  "methods_description": "Functional near-infrared spectroscopy (fNIRS) recordings were acquired from human auditory cortex using a NIRx NIRSport2 system. Participants were stratified into control and experimental (tinnitus) groups, with participant identifiers indicating group assignment (sub-0xx for controls, sub-1xx for experimental participants).",
+  "keywords": [
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "Auditory Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001303"
+    },
+    {
+      "term": "Tinnitus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014012"
+    },
+    {
+      "term": "Neuroimaging",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D059906"
+    },
+    {
+      "term": "Hemodynamics",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006439"
+    },
+    {
+      "term": "near-infrared spectroscopy"
+    }
+  ],
+  "source_hash": "d51da6f060f54f747f33dd213f618b4091073f150d0d2c6bfb2f8fadf6e3f545"
 }
