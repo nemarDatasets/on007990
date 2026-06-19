@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007990",
+  "source": "openneuro",
+  "source_id": "ds007990",
+  "title": "Subjective tinnitus severity correlates with objective changes in human auditory cortex as measured by functional near-infrared spectroscopy",
+  "authors": {
+    "Gopika Satish": {},
+    "Leah M. Taylor": {},
+    "Megan P. Arnold": {},
+    "Julia Gallagher-Shale": {},
+    "Karthikeyan Krishnamurthy": {},
+    "Gregory J. Basura": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007990.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "nirs"
+  ],
+  "datatypes": [
+    "nirs"
+  ]
+}
