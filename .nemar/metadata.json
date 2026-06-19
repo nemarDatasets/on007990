@@ -3,7 +3,7 @@
   "pipeline_stage": "validated",
   "title": "Subjective tinnitus severity correlates with objective changes in human auditory cortex as measured by functional near-infrared spectroscopy",
   "description": "This dataset comprises functional near-infrared spectroscopy (fNIRS) recordings from human auditory cortex in individuals with subjective tinnitus and matched controls. The study investigates the relationship between subjective tinnitus severity and objective neurophysiological changes in auditory cortex function, utilizing a NIRx NIRSport2 system for non-invasive optical neuroimaging.",
-  "methods_description": "Functional near-infrared spectroscopy (fNIRS) recordings were acquired using a NIRx NIRSport2 system to measure hemodynamic changes in human auditory cortex. Participants were stratified into control (sub-0xx) and experimental tinnitus (sub-1xx) groups.",
+  "methods_description": "Functional near-infrared spectroscopy (fNIRS) recordings were acquired using a NIRx NIRSport2 system to measure hemodynamic changes in auditory cortex. Participants were stratified into control (sub-0xx) and experimental tinnitus (sub-1xx) groups.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
