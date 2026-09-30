@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Subjective tinnitus severity correlates with objective changes in human auditory cortex as measured by functional near-infrared spectroscopy",
-  "description": "This dataset comprises functional near-infrared spectroscopy (fNIRS) recordings from human auditory cortex in individuals with subjective tinnitus and matched controls. The study investigates the relationship between subjective tinnitus severity and objective neurophysiological changes in auditory cortex function, utilizing a NIRx NIRSport2 system for non-invasive optical neuroimaging.",
-  "methods_description": "Functional near-infrared spectroscopy (fNIRS) recordings were acquired using a NIRx NIRSport2 system to measure hemodynamic changes in auditory cortex. Participants were stratified into control (sub-0xx) and experimental tinnitus (sub-1xx) groups.",
+  "description": "Functional near-infrared spectroscopy (fNIRS) recordings of human auditory cortex from participants with subjective tinnitus and matched controls. The dataset supports investigation of whether subjective tinnitus severity relates to objective hemodynamic changes in auditory cortex. Data were acquired with a NIRx NIRSport2 system and organized in BIDS format.",
+  "methods_description": "fNIRS data were acquired over the auditory cortex using a NIRx NIRSport2 system in tinnitus (experimental) and control participants. Group membership is recorded in participants.tsv.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,19 +16,23 @@
   },
   "keywords": [
     {
+      "term": "functional near-infrared spectroscopy"
+    },
+    {
       "term": "fNIRS"
     },
     {
-      "term": "auditory cortex"
+      "term": "Tinnitus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014012"
     },
     {
-      "term": "tinnitus"
+      "term": "Auditory Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001303"
     },
     {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "hemodynamics"
+      "term": "tinnitus severity"
     }
   ],
   "related_identifiers": [
@@ -38,14 +42,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007990",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds007990.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007990",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -54,7 +58,7 @@
     "nirs"
   ],
   "sizes": [
-    "287.0 MB (64 files)"
+    "274 MB (64 files)"
   ],
   "formats": [
     ".json",
