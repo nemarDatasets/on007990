@@ -1,0 +1,5 @@
+{
+  "NIRSCoordinateSystem": "Other",
+  "NIRSCoordinateUnits": "mm",
+  "NIRSCoordinateSystemDescription": "Optode positions as stored in the source file probe (3-D). The source file does not state the coordinate frame, so it is reported as Other; positions were not transformed or replaced by a template."
+}

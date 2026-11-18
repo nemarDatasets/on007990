@@ -1,4 +1,4 @@
-﻿name	type	source	detector	wavelength_nominal	units	low_cutoff	high_cutoff	description	sampling_frequency	status	status_description
+name	type	source	detector	wavelength_nominal	units	low_cutoff	high_cutoff	description	sampling_frequency	status	status_description
 S1_D1 760	NIRSCWAMPLITUDE	S1	D1	760.0	V	0.0	2.5432349949135302	Near Infrared Spectroscopy (continuous wave)	5.0864699898270604	good	n/a
 S1_D8 760	NIRSCWAMPLITUDE	S1	D8	760.0	V	0.0	2.5432349949135302	Near Infrared Spectroscopy (continuous wave)	5.0864699898270604	good	n/a
 S1_D9 760	NIRSCWAMPLITUDE	S1	D9	760.0	V	0.0	2.5432349949135302	Near Infrared Spectroscopy (continuous wave)	5.0864699898270604	good	n/a

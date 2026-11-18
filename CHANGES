@@ -1,2 +1,7 @@
+1.0.1 2026-11-18
+  - 63 sub-*/nirs/sub-*_optodes.tsv and 63 sub-*_coordsystem.json added from SNIRF /nirs/probe (sourcePos3D, detectorPos3D); NIRSCoordinateSystem Other, with a description
+  - 126 TSV files (63 channels.tsv, 63 scans.tsv): UTF-8 byte-order mark removed; values unchanged
+  - dataset_description.json: BIDSVersion 1.7.0 -> 1.8.0 (the nirs datatype exists in BIDS from version 1.8.0)
+  - dataset_description.json: Version 1.0.0 -> 1.0.1
 1.0.0 2026-06-18
   - Initial release
